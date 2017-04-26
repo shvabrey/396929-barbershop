@@ -53,6 +53,10 @@ main {
 	margin-right: 20px;
 }
 
+.breadcrumbs ul {
+	padding: 0;
+}
+
 .user-block {
 	float: right;
 	width: 140px;
@@ -82,7 +86,7 @@ article {
 	margin-right: 20px;
 }
 
-.products :nth-child(3n) {
+.products:nth-child(3n) {
 	margin-right: 0;
 }
 
@@ -110,5 +114,28 @@ article h2 {
 
 .authors {
 	width: 140px;
+	float: right;
+}
+
+.info-composition li {
+	display: block;
+}
+
+.images {
+	float: left;
+	width: 460px;
+}
+
+.little-img {
+	margin-top: 20px;
+	margin-right: 17px;
+}
+
+.little-img:last-child {
+	margin-right: 0;
+}
+
+.info {
+	width: 390px;
 	float: right;
 }

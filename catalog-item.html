@@ -7,35 +7,39 @@
   </head>
   <body>
   	<header class="main-header">
-      <nav>
-        <ul>
-          <li><a href="">Информация</a></li>
-          <li><a href="">Новости</a></li>
-          <li><a href="">Прайс-лист</a></li>
-          <li><a href="">Магазин</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="user-block">
-        <a href="" class="login">Вход</a>
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <ul>
+            <li><img src="img/logo.png"></li>
+            <li><a href="">Информация</a></li>
+            <li><a href="">Новости</a></li>
+            <li><a href="">Прайс-лист</a></li>
+            <li><a href="">Магазин</a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a href="" class="login">Вход</a>
+        </div>
       </div>
     </header>
     <main>
-      <h1>Набор для путешествий "Baxter of California"</h1>
-      <nav class="breadcrumbs">
-        <ul>
-          <li><a href="" class="breadcrumbs-main">Главная</a></li>
-          <li><a href="catalog.html" class="breadcrumbs-shop">Магазин</a></li>
-          <li><a href="" class="breadcrumbs-care-products">Средства для ухода</a></li>
-          <li><a href="catalog-item.html">Набор для путешествий "Baxter of California"</a></li>
-        </ul>
-      </nav>
-      <div class="content">
+      <div class="container clearfix">
+        <h1>Набор для путешествий "Baxter of California"</h1>
+        <nav class="breadcrumbs">
+          <ul>
+            <li><a href="" class="breadcrumbs-main">Главная</a></li>
+            <li><a href="catalog.html" class="breadcrumbs-shop">Магазин</a></li>
+            <li><a href="" class="breadcrumbs-care-products">Средства для ухода</a></li>
+            <li><a href="catalog-item.html">Набор для путешествий "Baxter of California"</a></li>
+          </ul>
+        </nav>
+        <div class="content clearfix">
         <div class="images">
           <img src="img/item-img.jpg" alt="product picture" width="460" height="498">
-          <img src="img/2-item-img.jpg" alt="product picture" width="140" height="150">
-          <img src="img/3-item-img.jpg" alt="product picture" width="140" height="150">
-          <img src="img/item-img.jpg" alt="product picture" width="140" height="150">
+          <img src="img/2-item-img.jpg" alt="product picture" width="140" height="150" class="little-img">
+          <img src="img/3-item-img.jpg" alt="product picture" width="140" height="150" class="little-img">
+          <img src="img/item-img.jpg" alt="product picture" width="140" height="150" class="little-img">
         </div>
         <div class="info">
           <div class="availability">
@@ -59,26 +63,29 @@
           </section>
         </div>
        </div> 
+      </div>
     </main>
     <footer>
-      <section class="contacts">
-        <p><b>Барбершоп "Бородинский"</b><br>
-        Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-        <a href="" class="find-us">Как наc найти?</a><br>
-        Телефон: +7 (495) 666-02-66</p>
-      </section>
-      <section class="soc-networks">
-        <p>Давайте дружить!<br>
-        <ul>
-          <li><a class="social-btn social-btn-vk" href="#">Вконтакте</a></li>
-          <li><a class="social-btn social-btn-fb" href="#">Фейсбук</a></li>
-          <li><a class="social-btn social-btn-inst" href="#">Инстаграм</a></li>
-        </ul>
-      </section>
-      <section class="authors">
-        <p>Разработано:<br>
-        htmlacademy.ru</p>
-      </section>
+    <div class="container clearfix">    
+        <section class="contacts">
+          <p><b>Барбершоп "Бородинский"</b><br>
+          Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+          <a href="" class="find-us">Как наc найти?</a><br>
+          Телефон: +7 (495) 666-02-66</p>
+        </section>
+        <section class="soc-networks">
+          <p>Давайте дружить!<br>
+          <ul>
+            <li><a class="social-btn social-btn-vk" href="#">Вк</a></li>
+              <li><a class="social-btn social-btn-fb" href="#">Фб</a></li>
+              <li><a class="social-btn social-btn-inst" href="#">Инст</a></li>
+            </ul>
+        </section>
+        <section class="authors">
+          <p>Разработано:<br>
+          htmlacademy.ru</p>
+        </section>
+      </div>
     </footer>
    </body>
 </html>
