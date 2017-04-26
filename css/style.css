@@ -21,3 +21,94 @@ h2 {
 	font-weight: bold;
 	font-family: PT Sans Narrow, Sans-serif;
 }
+
+a {
+	text-decoration: none;
+}
+
+header {
+	min-height: 70px;
+}
+
+main {
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+	padding: 0 10px;
+}
+
+.main-navigation {
+	float: left;
+	width: 780px;
+}
+
+.main-navigation li {
+	margin-right: 20px;
+}
+
+.breadcrumbs li {
+	margin-right: 20px;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+}
+
+li {
+	display: inline;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.filters {
+	float: left;
+	width: 220px;
+}
+
+article {
+	float: left;
+	line-height: 18px;
+	word-wrap: break-word;
+	width: 220px;
+	min-height: 286px;
+	margin-right: 20px;
+}
+
+.products :nth-child(3n) {
+	margin-right: 0;
+}
+
+article h2 {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.products {
+	margin: 0 auto;
+	width: 700px;
+	float: left;
+}
+
+.contacts {
+	float: left;
+	width: 310px;
+	margin-right: 90px;
+}
+
+.soc-networks {
+	float: left;
+	width: 140px;
+}
+
+.authors {
+	width: 140px;
+	float: right;
+}
