@@ -118,12 +118,12 @@ header {
 	width: 460px;
 }
 
-.little-img {
+.secondary-item-img {
 	margin-top: 20px;
 	margin-right: 17px;
 }
 
-.little-img:last-child {
+.secondary-item-img:last-child {
 	margin-right: 0;
 }
 
